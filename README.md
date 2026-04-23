@@ -1,17 +1,27 @@
 ## 👋 Hi, I'm Aashutosh
 
-🚀 2nd Year CS Student building real-time AI systems & backend infrastructure
+🚀 2nd Year CS Student focused on **real-time AI systems, agents, and backend architecture**
 
 ---
 
 ## 🧠 Featured Project
 
-### 🤖 ARC-AI — Real-Time Voice AI Agent
+### 🤖 ARC-AI — Autonomous Real-Time Voice Agent
 
-* Streams responses as it generates (WebSockets)
-* Speaks while thinking (TTS + buffering)
-* Interruptible mid-response (Jarvis-style)
-* Tool calling system (can open websites, fetch data, etc.)
+A low-latency AI agent that **streams responses, executes tools, and maintains long-term memory**
+
+**Key Highlights:**
+
+* ⚡ Real-time streaming via WebSockets (token-by-token responses)
+* 🗣️ Interruptible voice responses (TTS + buffering pipeline)
+* 🧠 RAG-based memory (vector embeddings + semantic recall)
+* 🔧 Autonomous tool execution (web, APIs, external actions)
+
+**Engineering Focus:**
+
+* Designed low-latency response pipeline
+* Handled multi-step tool execution with async control
+* Built real-time bidirectional communication layer
 
 🔗 GitHub: https://github.com/Aashutosh31/arc-ai-project
 🌐 Live Demo: https://arc-ai-project.vercel.app
@@ -20,9 +30,9 @@
 
 ## ⚙️ What I Work On
 
-* AI Systems (LLMs, Agents, Tool Calling)
-* Real-time apps (WebSockets, streaming)
-* Backend engineering (Node.js, Express, MongoDB, Redis)
+* AI Agents (LLMs, RAG, tool calling)
+* Real-time systems (WebSockets, streaming architectures)
+* Backend engineering (Node.js, distributed systems basics)
 
 ---
 
@@ -34,8 +44,8 @@ Node.js • React • MongoDB • Socket.IO • Docker • Redis
 
 ## 📌 Currently
 
-* Building AI agents & real-time systems
-* Exploring system design & scalability
+* Building autonomous AI agents
+* Learning system design & scalability
 
 ---
 
