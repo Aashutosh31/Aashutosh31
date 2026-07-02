@@ -154,18 +154,14 @@ A low-latency AI agent that streams responses, executes tools, and maintains lon
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Aashutosh31&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aashutosh31&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5" />
-
 <br/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aashutosh31&theme=tokyonight&hide_border=true&background=1a1b26&stroke=1a1b26&ring=7aa2f7&fire=bb9af7&currStreakLabel=c0caf5" />
 <br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aashutosh31&theme=tokyo-night&hide_border=true&bg_color=1a1b26&color=7aa2f7&line=bb9af7&point=c0caf5" width="100%"/>
 <br/>
-<img src="https://github-profile-trophy.vercel.app/?username=Aashutosh31&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
 
 
 ## 📫 Reach Me
