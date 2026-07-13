@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=180&section=header&text=Aashutosh%20Bairagi&fontSize=46&fontColor=1a1b26&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Arch%20Linux&descAlignY=58&descSize=18&descColor=1a1b26" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=180&section=header&text=Aashutosh%20Bairagi&fontSize=46&fontColor=1a1b26&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Arch%20Linux%20%7C%20VS%20Code&descAlignY=58&descSize=18&descColor=1a1b26" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=whoami+%3E%3E+Aashutosh+Bairagi;Full-Stack+Developer+%26+Founder;Building+ARC-AI+%2B+WebChat;Arch+Linux+%7C+Hyprland+%7C+Neovim+btw" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=whoami+%3E%3E+Aashutosh+Bairagi;Full-Stack+Developer;Building+ARC-AI+%2B+WebChat;Arch+Linux+%7C+Hyprland+%7C+VS+Code" alt="Typing SVG" />
 
 <br/>
 
