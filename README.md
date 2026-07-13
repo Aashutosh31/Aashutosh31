@@ -123,7 +123,7 @@ A low-latency AI agent that streams responses, executes tools, and maintains lon
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,redux,nodejs,express,socketio,mongodb,redis,docker,vercel,git,github,linux,arch,vim,ts&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,tailwind,redux,nodejs,express,socketio,mongodb,redis,docker,vercel,git,github,linux,arch,vscode,ts&theme=dark" />
 
 </div>
 
@@ -134,7 +134,7 @@ A low-latency AI agent that streams responses, executes tools, and maintains lon
 <tr><td>🧩 <b>Backend</b></td><td>Node.js · Express · Socket.IO</td></tr>
 <tr><td>🗄️ <b>Data & Cache</b></td><td>MongoDB · Redis · Pinecone (Vector DB)</td></tr>
 <tr><td>☁️ <b>Infra</b></td><td>Docker · LiveKit (WebRTC) · Vercel · Render</td></tr>
-<tr><td>💻 <b>Daily Driver</b></td><td>Arch Linux · Hyprland · Omarchy · Neovim</td></tr>
+<tr><td>💻 <b>Daily Driver</b></td><td>Arch Linux · Hyprland · Omarchy · VS Code</td></tr>
 </table>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
