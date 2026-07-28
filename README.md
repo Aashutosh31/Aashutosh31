@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=180&section=header&text=Aashutosh%20Bairagi&fontSize=46&fontColor=1a1b26&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Arch%20Linux%20%7C%20VS%20Code&descAlignY=58&descSize=18&descColor=1a1b26" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=whoami+%3E%3E+Aashutosh+Bairagi;Full-Stack+Developer;Building+ARC-AI+%2B+WebChat;Arch+Linux+%7C+Hyprland+%7C+VS+Code" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=whoami+%3E%3E+Aashutosh+Bairagi;Building+real-time+systems+%26+AI+agents;ARC-AI+%2B+WebChat;Arch+Linux+%7C+Hyprland+%7C+VS+Code" alt="Typing SVG" />
 
 <br/>
 
@@ -20,9 +20,10 @@
 └─$ cat about.md
 ```
 
-> 🚀 **2nd Year CS Student · Full-Stack Developer **
-> Creator of **ARC-AI** (open-source) and **WebChat**. Focused on mastering real-time
-> AI systems, DevOps, and backend architecture by building highly functional, complex applications
+> 🚀 **2nd Year CS Student · Building distributed real-time applications and AI systems**
+> Creator of **ARC-AI** and **WebChat** — real-time messaging, voice/video
+> infrastructure, and autonomous agent tooling, built end-to-end: architecture, backend,
+> and deployment.
 
 <div align="center">
 
@@ -45,22 +46,23 @@
 <td width="50%" valign="top">
 
 ### 🌐 WebChat
-**Global-Scale Social Communication Platform**
+**Distributed Real-Time Communication Platform**
 
 ![Blue](https://img.shields.io/badge/-Real--time%20Mesh-24283b?style=flat-square&labelColor=24283b&color=7aa2f7)
 
-A multi-paradigm social network merging low-latency persistent messaging, Discord-style communities, Reddit-like forums, and ephemeral social feeds into one ecosystem.
+A multi-paradigm social platform merging low-latency persistent messaging, Discord-style communities, Reddit-style forums, and ephemeral social feeds into one ecosystem.
+
+**Built solo:** architecture, backend, real-time infrastructure, authentication, and deployment.
 
 <details>
 <summary><b>⚡ Engineering Highlights</b></summary>
 <br/>
 
-- Distributed WebSocket architecture synced across instances via **Redis Pub/Sub**
-- Multi-party **WebRTC** voice/video rooms powered by **LiveKit**
-- Zero-trust E2E payload encryption via native **Web Crypto API** + strict JWT rotation
-- Ambient **ARC Assistant** using Mistral AI + Pinecone vector memory for contextual support
-- Designed for horizontal scalability, high concurrency, decoupled service layers
-- Dockerized multi-container deployment pipelines
+- **Redis Pub/Sub** keeps WebSocket message delivery synchronized across multiple server instances, so real-time events stay consistent as the backend scales horizontally
+- **LiveKit** powers multi-party WebRTC voice/video rooms, offloading media routing away from the application server
+- Payload encryption via the native **Web Crypto API**, paired with short-lived JWT access tokens and rotating refresh tokens, to limit exposure from a compromised session
+- Embedded **ARC Assistant** (Mistral AI + Pinecone vector memory) surfaces contextual support inside communities without a separate lookup step
+- Dockerized multi-container setup separates the API, real-time layer, and datastores into independently deployable services
 
 </details>
 
@@ -73,22 +75,23 @@ A multi-paradigm social network merging low-latency persistent messaging, Discor
 <td width="50%" valign="top">
 
 ### 🤖 ARC-AI
-**Autonomous Real-Time Voice Agent**
+**Real-Time AI Assistant with Streaming Voice & Long-Term Memory**
 
 ![Violet](https://img.shields.io/badge/-RAG%20Memory-24283b?style=flat-square&labelColor=24283b&color=bb9af7)
 
-A low-latency AI agent that streams responses, executes tools, and maintains long-term memory — built on a full MERN-stack execution core.
+An AI agent that streams responses, executes tools, and maintains long-term memory — built on a full MERN-stack execution core.
+
+**Built solo:** architecture, backend, agent runtime, RAG pipeline, and UI actuation.
 
 <details>
 <summary><b>⚡ Engineering Highlights</b></summary>
 <br/>
 
-- Real-time token-by-token streaming via **WebSockets**
-- Interruptible voice responses (TTS + buffering pipeline)
-- **RAG**-based memory — vector embeddings + semantic recall
-- Autonomous multi-step tool execution (web, APIs, external actions)
-- Low-latency response pipelines with async multi-step tool control
-- Real-time bidirectional communication layers
+- Token-by-token **WebSocket** streaming renders responses as they're generated instead of waiting for the full completion
+- Voice responses are interruptible — a buffered TTS pipeline stops playback mid-sentence once the user starts speaking
+- **RAG-based memory** retrieves relevant Pinecone embeddings from past conversations instead of replaying full history on every turn
+- Multi-step tool execution (web search, external APIs) runs without requiring a new prompt for each step
+- Recovery/retry logic sits above the LLM provider layer, so a failed call doesn't break `tool_call` continuity mid-execution
 
 </details>
 
@@ -100,6 +103,21 @@ A low-latency AI agent that streams responses, executes tools, and maintains lon
 </td>
 </tr>
 </table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+
+## 🧩 Engineering Challenges
+
+```
+┌──(aashutosh㉿arch)-[~/challenges]
+└─$ git log --oneline --grep="fix\|solve"
+```
+
+* Synchronized real-time events across multiple server instances using Redis Pub/Sub, avoiding the single-instance WebSocket bottleneck
+* Built an interruptible TTS playback pipeline so voice responses can be cut off mid-sentence without breaking the buffering logic
+* Designed a semantic memory layer with Pinecone embeddings so the agent recalls relevant context instead of replaying full conversation history
+* Separated recovery/retry logic above the LLM provider layer in ARC-AI, preserving streaming continuity and `tool_call` consistency when a request fails
+* Containerized the full stack (API, real-time layer, datastores) with Docker for consistent local and production environments
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
 
@@ -150,7 +168,7 @@ A low-latency AI agent that streams responses, executes tools, and maintains lon
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
 
-## 📊 GitHub Stats
+## 📊 Activity & Languages
 
 <div align="center">
 
@@ -158,15 +176,11 @@ A low-latency AI agent that streams responses, executes tools, and maintains lon
 <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Aashutosh31&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5" />
 
 <br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aashutosh31&theme=tokyonight&hide_border=true&background=1a1b26&stroke=1a1b26&ring=7aa2f7&fire=bb9af7&currStreakLabel=c0caf5" />
-<br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aashutosh31&theme=tokyo-night&hide_border=true&bg_color=1a1b26&color=7aa2f7&line=bb9af7&point=c0caf5" width="100%"/>
-<br/>
-<img src="https://github-trophies.vercel.app/?username=Aashutosh31&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
-
 
 ## 📫 Reach Me
 
