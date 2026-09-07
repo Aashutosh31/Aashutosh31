@@ -176,8 +176,8 @@ An AI agent that streams responses, executes tools, and maintains long-term memo
 <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Aashutosh31&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5" />
 
 <br/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aashutosh31&theme=tokyo-night&hide_border=true&bg_color=1a1b26&color=7aa2f7&line=bb9af7&point=c0caf5" width="100%"/>
 
+<img src="https://ghchart.xqsit94.in/dark:00a8ff/Aashutosh31" alt="Aashutosh's GitHub contribution graph" width="95%"/>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
