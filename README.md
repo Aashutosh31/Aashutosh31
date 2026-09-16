@@ -43,7 +43,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top"> 
 
 ### 🌐 WebChat
 **Distributed Real-Time Communication Platform**
