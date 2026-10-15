@@ -1,206 +1,142 @@
-<div align="center">
+# Aashutosh Bairagi
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=180&section=header&text=Aashutosh%20Bairagi&fontSize=46&fontColor=1a1b26&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Arch%20Linux%20%7C%20VS%20Code&descAlignY=58&descSize=18&descColor=1a1b26" width="100%"/>
+### Full-Stack Developer · Real-Time Systems · AI Agents
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=whoami+%3E%3E+Aashutosh+Bairagi;Building+real-time+systems+%26+AI+agents;ARC-AI+%2B+WebChat;Arch+Linux+%7C+Hyprland+%7C+VS+Code" alt="Typing SVG" />
+I build full-stack products with a focus on **real-time communication, AI agent systems, and backend engineering**.
 
-<br/>
+Currently building **[WebChat](https://webchat.qzz.io)** and **[ARC-AI](https://arc-ai-project.vercel.app/)** — two projects that push me to work beyond the happy path: streaming, synchronization, memory, failure recovery, and the engineering decisions that make applications feel reliable.
 
-<img src="https://img.shields.io/badge/OS-Arch_Linux-1a1b26?style=for-the-badge&logo=archlinux&logoColor=7aa2f7&labelColor=1a1b26" />
-<img src="https://img.shields.io/badge/WM-Hyprland-1a1b26?style=for-the-badge&logo=wayland&logoColor=bb9af7&labelColor=1a1b26" />
-<img src="https://img.shields.io/badge/status-shipping-1a1b26?style=for-the-badge&logo=girlsreunited&logoColor=9ece6a&labelColor=1a1b26" />
-<img src="https://komarev.com/ghpvc/?username=Aashutosh31&style=for-the-badge&color=1a1b26&label=PROFILE+VIEWS&labelColor=1a1b26" />
+[Portfolio](https://aashutoshbairagi.vercel.app/) · [GitHub](https://github.com/Aashutosh31) · [LinkedIn](https://www.linkedin.com/in/aashutosh-bairagi-559aa530b/) · [X](https://x.com/Aashutosh_dev31)
 
-</div>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+## About
 
-```
-┌──(aashutosh㉿arch)-[~/introduction]
-└─$ cat about.md
-```
+I'm a computer science student and independent developer who enjoys understanding how software works beneath the interface.
 
-> 🚀 **2nd Year CS Student · Building distributed real-time applications and AI systems**
-> Creator of **ARC-AI** and **WebChat** — real-time messaging, voice/video
-> infrastructure, and autonomous agent tooling, built end-to-end: architecture, backend,
-> and deployment.
+My interests sit at the intersection of:
 
-<div align="center">
+- **Real-time engineering** — event delivery, WebSockets, WebRTC, and synchronized state.
+- **AI systems** — streaming inference, tool orchestration, retrieval-augmented generation, and conversational memory.
+- **Backend engineering** — APIs, authentication, caching, persistence, and failure handling.
+- **Infrastructure** — Docker, deployment workflows, and maintainable system architecture.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-aashutoshbairagi.vercel.app-1a1b26?style=for-the-badge&logo=vercel&logoColor=c0caf5&labelColor=1a1b26)](https://aashutoshbairagi.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aashutosh_Bairagi-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7&labelColor=1a1b26)](https://www.linkedin.com/in/aashutosh-bairagi-559aa530b/)
+I learn by building real products, debugging the difficult parts, and improving the underlying design.
 
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
-
-## 🧠 Featured Projects
-
-```
-┌──(aashutosh㉿arch)-[~/projects]
-└─$ tree -L 1 --color=tokyonight
+```text
+~/engineering
+├── webchat/     # Real-time social communication
+├── arc-ai/      # Conversational AI and agent runtime
+└── experiments/ # Learning through implementation
 ```
 
-<table>
-<tr>
-<td width="50%" valign="top"> 
+## Featured Projects
 
-### 🌐 WebChat
-**Distributed Real-Time Communication Platform**
+### 01. WebChat
 
-![Blue](https://img.shields.io/badge/-Real--time%20Mesh-24283b?style=flat-square&labelColor=24283b&color=7aa2f7)
+**A real-time social communication platform**
 
-A multi-paradigm social platform merging low-latency persistent messaging, Discord-style communities, Reddit-style forums, and ephemeral social feeds into one ecosystem.
+[Open WebChat ↗](https://webchat.qzz.io) · [System Design & Documentation ↗](https://github.com/Aashutosh31/webchat-system-design)
 
-**Built solo:** architecture, backend, real-time infrastructure, authentication, and deployment.
+WebChat brings persistent messaging, communities, discussion spaces, and ephemeral social content together in one product.
 
-<details>
-<summary><b>⚡ Engineering Highlights</b></summary>
-<br/>
+**Engineering highlights**
 
-- **Redis Pub/Sub** keeps WebSocket message delivery synchronized across multiple server instances, so real-time events stay consistent as the backend scales horizontally
-- **LiveKit** powers multi-party WebRTC voice/video rooms, offloading media routing away from the application server
-- Payload encryption via the native **Web Crypto API**, paired with short-lived JWT access tokens and rotating refresh tokens, to limit exposure from a compromised session
-- Embedded **ARC Assistant** (Mistral AI + Pinecone vector memory) surfaces contextual support inside communities without a separate lookup step
-- Dockerized multi-container setup separates the API, real-time layer, and datastores into independently deployable services
+- **Distributed event delivery:** Redis Pub/Sub helps synchronize real-time events across multiple Socket.IO server instances.
+- **Voice and video:** LiveKit provides infrastructure for multi-party WebRTC communication.
+- **Authentication:** JWT-based access and refresh-token flows support session management.
+- **Cryptography:** Browser-native Web Crypto APIs support encryption for selected payloads.
+- **Containerization:** Docker helps separate application services and supporting infrastructure.
+- **Integrated AI:** An embedded assistant brings contextual AI capabilities into the communication experience.
 
-</details>
+**Stack**
 
-`React` `Node.js` `MongoDB` `Redis` `Socket.IO` `LiveKit` `Tailwind` `Docker`
+`React` `TypeScript` `Node.js` `MongoDB` `Redis` `Socket.IO` `LiveKit` `Docker` `Tailwind CSS`
 
-[![Repo](https://img.shields.io/badge/Architecture_&_Docs-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7&labelColor=1a1b26)](https://github.com/Aashutosh31/webchat-system-design)
-[![Live](https://img.shields.io/badge/Live_Production-1a1b26?style=for-the-badge&logo=vercel&logoColor=7aa2f7&labelColor=1a1b26)](https://webchat.qzz.io)
+---
 
-</td>
-<td width="50%" valign="top">
+### 02. ARC-AI
 
-### 🤖 ARC-AI
-**Real-Time AI Assistant with Streaming Voice & Long-Term Memory**
+**A real-time conversational assistant and AI agent runtime**
 
-![Violet](https://img.shields.io/badge/-RAG%20Memory-24283b?style=flat-square&labelColor=24283b&color=bb9af7)
+[Try the live demo ↗](https://arc-ai-project.vercel.app/) · [Explore the source code ↗](https://github.com/Aashutosh31/arc-ai-project)
 
-An AI agent that streams responses, executes tools, and maintains long-term memory — built on a full MERN-stack execution core.
+ARC-AI is an AI workspace built around streaming responses, tool execution, conversational voice, vision, and retrieval-based memory.
 
-**Built solo:** architecture, backend, agent runtime, RAG pipeline, and UI actuation.
+**Engineering highlights**
 
-<details>
-<summary><b>⚡ Engineering Highlights</b></summary>
-<br/>
+- **Incremental streaming:** Responses arrive progressively instead of waiting for the entire completion.
+- **Multi-step tool execution:** The agent can invoke tools, process their results, and continue its execution.
+- **Retrieval-based memory:** Relevant historical context can be retrieved instead of repeatedly supplying the entire conversation history.
+- **Interruptible voice:** A voice interaction state machine handles conversational turn-taking and user interruptions.
+- **Provider resilience:** Recovery logic helps manage failed model calls without unnecessarily breaking execution continuity.
+- **Runtime optimization:** Improvements to delivery and persistence paths reduce avoidable delays in the streaming experience.
 
-- Token-by-token **WebSocket** streaming renders responses as they're generated instead of waiting for the full completion
-- Voice responses are interruptible — a buffered TTS pipeline stops playback mid-sentence once the user starts speaking
-- **RAG-based memory** retrieves relevant Pinecone embeddings from past conversations instead of replaying full history on every turn
-- Multi-step tool execution (web search, external APIs) runs without requiring a new prompt for each step
-- Recovery/retry logic sits above the LLM provider layer, so a failed call doesn't break `tool_call` continuity mid-execution
+**Stack**
 
-</details>
+`React` `Node.js` `MongoDB` `Socket.IO` `LLM APIs` `RAG` `Vector Search` `STT/TTS`
 
-`React` `Node.js` `WebSockets` `Vector DB` `TTS/STT` `RAG`
+---
 
-[![Repo](https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=bb9af7&labelColor=1a1b26)](https://github.com/Aashutosh31/arc-ai-project)
-[![Live](https://img.shields.io/badge/Live_Demo-1a1b26?style=for-the-badge&logo=vercel&logoColor=bb9af7&labelColor=1a1b26)](https://arc-ai-project.vercel.app)
+## Engineering Interests
 
-</td>
-</tr>
-</table>
+| Domain | Areas of focus |
+| --- | --- |
+| AI agents | Tool calling, orchestration, RAG, semantic memory |
+| Real-time systems | WebSockets, WebRTC, event propagation, synchronization |
+| Backend | Node.js, API design, authentication, caching |
+| Data | MongoDB, Redis, vector retrieval |
+| Infrastructure | Docker, deployment, service boundaries |
+| Developer tooling | Git, Linux, automation, technical documentation |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+## Tech Stack
 
-## 🧩 Engineering Challenges
+**Frontend**
 
-```
-┌──(aashutosh㉿arch)-[~/challenges]
-└─$ git log --oneline --grep="fix\|solve"
-```
+React · JavaScript · TypeScript · Tailwind CSS · Zustand · Framer Motion
 
-* Synchronized real-time events across multiple server instances using Redis Pub/Sub, avoiding the single-instance WebSocket bottleneck
-* Built an interruptible TTS playback pipeline so voice responses can be cut off mid-sentence without breaking the buffering logic
-* Designed a semantic memory layer with Pinecone embeddings so the agent recalls relevant context instead of replaying full conversation history
-* Separated recovery/retry logic above the LLM provider layer in ARC-AI, preserving streaming continuity and `tool_call` consistency when a request fails
-* Containerized the full stack (API, real-time layer, datastores) with Docker for consistent local and production environments
+**Backend**
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+Node.js · Express · Socket.IO · REST APIs
 
-## ⚙️ What I Work On
+**Data and AI**
 
-```
-┌──(aashutosh㉿arch)-[~/skills]
-└─$ fastfetch --focus
-```
+MongoDB · Redis · Pinecone · LLM APIs · Retrieval-Augmented Generation
 
-<table>
-<tr><td width="140">🧠 <b>AI Agents</b></td><td>LLMs, RAG, semantic memory, tool calling</td></tr>
-<tr><td>⚡ <b>Real-Time</b></td><td>WebSockets, WebRTC, streaming architectures, low-latency sync</td></tr>
-<tr><td>🛠 <b>Backend</b></td><td>Node.js, distributed system patterns, database optimization</td></tr>
-<tr><td>📦 <b>DevOps</b></td><td>Git workflows, Docker orchestration, CI/CD</td></tr>
-</table>
+**Real-Time Infrastructure**
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+WebSockets · WebRTC · LiveKit · Streaming pipelines · Speech interfaces
 
-## 🛠 Tech Stack
+**DevOps and Tools**
 
-<div align="center">
+Docker · Git · GitHub · Vercel · Render
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,redux,nodejs,express,socketio,mongodb,redis,docker,vercel,git,github,linux,arch,vscode,ts&theme=dark" />
+**Development Environment**
 
-</div>
+Arch Linux · Hyprland · Omarchy · VS Code · JetBrains Mono
 
-<br/>
+## Currently Working On
 
-<table align="center">
-<tr><td>🎨 <b>Frontend</b></td><td>React · Tailwind CSS · Framer Motion · Zustand</td></tr>
-<tr><td>🧩 <b>Backend</b></td><td>Node.js · Express · Socket.IO</td></tr>
-<tr><td>🗄️ <b>Data & Cache</b></td><td>MongoDB · Redis · Pinecone (Vector DB)</td></tr>
-<tr><td>☁️ <b>Infra</b></td><td>Docker · LiveKit (WebRTC) · Vercel · Render</td></tr>
-<tr><td>💻 <b>Daily Driver</b></td><td>Arch Linux · Hyprland · Omarchy · VS Code</td></tr>
-</table>
+- Improving WebChat's real-time communication and community experience.
+- Refining ARC-AI's voice interaction, tool execution, and runtime reliability.
+- Strengthening my understanding of distributed systems and backend architecture.
+- Building better development workflows and documenting technical decisions.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+## Beyond the Code
 
-## 📌 Currently
+I use Arch Linux with Hyprland and enjoy building a keyboard-driven development environment.
 
-```diff
-+ Scaling WebChat infrastructure and expanding community features
-+ Building and refining autonomous AI agents
-+ Contributing to open-source workflows
-+ Tuning the Hyprland rice, one pixel at a time
-```
+I like the parts of engineering that require digging deeper: tracing a race condition, understanding a latency bottleneck, or figuring out why a system behaves differently under failure.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
+**My goal is to build software that is not only functional, but thoughtfully engineered.**
 
-## 📊 Activity & Languages
+## Connect
 
-<div align="center">
+- **Portfolio:** https://aashutoshbairagi.vercel.app/
+- **GitHub:** https://github.com/Aashutosh31
+- **LinkedIn:** https://www.linkedin.com/in/aashutosh-bairagi-559aa530b/
+- **X:** https://x.com/Aashutosh_dev31
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=Aashutosh31&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Aashutosh31&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5" />
+---
 
-<br/>
-
-<img src="https://ghchart.xqsit94.in/dark:00a8ff/Aashutosh31" alt="Aashutosh's GitHub contribution graph" width="95%"/>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:1a1b26&height=2" width="100%"/>
-
-## 📫 Reach Me
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-7aa2f7?style=for-the-badge&logo=firefox&logoColor=1a1b26)](https://aashutoshbairagi.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-bb9af7?style=for-the-badge&logo=linkedin&logoColor=1a1b26)](https://www.linkedin.com/in/aashutosh-bairagi-559aa530b/)
-[![GitHub](https://img.shields.io/badge/GitHub-c0caf5?style=for-the-badge&logo=github&logoColor=1a1b26)](https://github.com/Aashutosh31)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-```
-┌──(aashutosh㉿arch)-[~]
-└─$ exit
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,100:7aa2f7&height=120&section=footer"/>
-
-</div>
+*Build. Debug. Understand. Improve.*
