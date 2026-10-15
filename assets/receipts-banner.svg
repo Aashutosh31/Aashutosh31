@@ -1,0 +1,76 @@
+<svg width="1000" height="190" viewBox="0 0 1000 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Receipts — a 90-day accountability mobile app built with Flutter and Supabase.">
+  <defs>
+    <linearGradient id="r-bg" x1="0" y1="0" x2="1000" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1b26"/>
+      <stop offset="1" stop-color="#16161e"/>
+    </linearGradient>
+    <radialGradient id="r-gl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 20) rotate(160) scale(420 320)">
+      <stop stop-color="#9ece6a" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#9ece6a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="r-name" x1="42" y1="76" x2="300" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9ece6a"/>
+      <stop offset="1" stop-color="#7dcfff"/>
+    </linearGradient>
+    <linearGradient id="r-bar" x1="0" y1="0" x2="0" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9ece6a"/>
+      <stop offset="1" stop-color="#7dcfff"/>
+    </linearGradient>
+    <pattern id="r-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2a2e42"/>
+    </pattern>
+    <clipPath id="r-clip"><rect width="1000" height="190" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#r-clip)">
+    <rect width="1000" height="190" fill="url(#r-bg)"/>
+    <rect width="1000" height="190" fill="url(#r-gl)"/>
+    <rect width="1000" height="190" fill="url(#r-dots)" opacity=".45"/>
+    <rect width="5" height="190" fill="url(#r-bar)"/>
+
+    <text x="42" y="52" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#9ece6a" letter-spacing="3">MOBILE · FLUTTER</text>
+    <text x="42" y="104" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="46" font-weight="700" fill="url(#r-name)">Receipts</text>
+    <text x="44" y="132" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15" fill="#a9b1d6">90-day accountability, tracked honestly</text>
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12">
+      <rect x="42" y="150" width="90" height="28" rx="14" fill="#1f2335" stroke="#9ece6a"/>
+      <text x="56" y="169" fill="#9ece6a">Flutter</text>
+      <rect x="144" y="150" width="102" height="28" rx="14" fill="#1f2335" stroke="#7dcfff"/>
+      <text x="158" y="169" fill="#7dcfff">Supabase</text>
+      <rect x="258" y="150" width="78" height="28" rx="14" fill="#1f2335" stroke="#7aa2f7"/>
+      <text x="272" y="169" fill="#7aa2f7">Drift</text>
+    </g>
+
+    <g>
+      <rect x="660" y="44" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="694" y="44" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="728" y="44" width="24" height="24" rx="6" fill="#7dcfff"/>
+      <rect x="762" y="44" width="24" height="24" rx="6" fill="#24283b"/>
+      <rect x="796" y="44" width="24" height="24" rx="6" fill="#7aa2f7"/>
+      <rect x="830" y="44" width="24" height="24" rx="6" fill="#bb9af7"/>
+      <rect x="864" y="44" width="24" height="24" rx="6" fill="#9ece6a"/>
+
+      <rect x="660" y="78" width="24" height="24" rx="6" fill="#7dcfff"/>
+      <rect x="694" y="78" width="24" height="24" rx="6" fill="#24283b"/>
+      <rect x="728" y="78" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="762" y="78" width="24" height="24" rx="6" fill="#7aa2f7"/>
+      <rect x="796" y="78" width="24" height="24" rx="6" fill="#bb9af7"/>
+      <rect x="830" y="78" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="864" y="78" width="24" height="24" rx="6" fill="#24283b"/>
+
+      <rect x="660" y="112" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="694" y="112" width="24" height="24" rx="6" fill="#7aa2f7"/>
+      <rect x="728" y="112" width="24" height="24" rx="6" fill="#bb9af7"/>
+      <rect x="762" y="112" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="796" y="112" width="24" height="24" rx="6" fill="#24283b"/>
+      <rect x="830" y="112" width="24" height="24" rx="6" fill="#7dcfff"/>
+      <rect x="864" y="112" width="24" height="24" rx="6" fill="#7aa2f7"/>
+
+      <rect x="660" y="146" width="24" height="24" rx="6" fill="#24283b"/>
+      <rect x="694" y="146" width="24" height="24" rx="6" fill="#7dcfff"/>
+      <rect x="728" y="146" width="24" height="24" rx="6" fill="#9ece6a"/>
+      <rect x="762" y="146" width="24" height="24" rx="6" fill="#24283b"/>
+      <rect x="796" y="146" width="24" height="24" rx="6" fill="#7aa2f7"/>
+      <rect x="830" y="146" width="24" height="24" rx="6" fill="#bb9af7"/>
+      <rect x="864" y="146" width="24" height="24" rx="6" fill="#9ece6a"/>
+    </g>
+  </g>
+</svg>

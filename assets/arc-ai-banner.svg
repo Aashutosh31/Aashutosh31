@@ -1,0 +1,93 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ARC-AI — streaming AI agent runtime with tool execution and retrieval-based memory.">
+  <defs>
+    <linearGradient id="a-bg" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1b26"/>
+      <stop offset="1" stop-color="#16161e"/>
+    </linearGradient>
+    <radialGradient id="a-gl1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80 20) rotate(30) scale(420 320)">
+      <stop stop-color="#bb9af7" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a-gl2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 300) rotate(205) scale(460 340)">
+      <stop stop-color="#7aa2f7" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="a-name" x1="40" y1="90" x2="420" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="a-bar" x1="0" y1="0" x2="0" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <pattern id="a-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#2a2e42"/>
+    </pattern>
+    <clipPath id="a-clip"><rect width="1000" height="280" rx="16"/></clipPath>
+    <style>
+      .amesh{stroke-dasharray:5 8;animation:adash 3s linear infinite}
+      @keyframes adash{to{stroke-dashoffset:-52}}
+      .apulse{animation:apulse 2.6s ease-in-out infinite}
+      @keyframes apulse{0%,100%{opacity:.35}50%{opacity:1}}
+      .aStream1{animation:afade 2.6s ease-in-out infinite}
+      .aStream2{animation:afade 2.6s ease-in-out .35s infinite}
+      .aStream3{animation:afade 2.6s ease-in-out .7s infinite}
+      @keyframes afade{0%,100%{opacity:.22}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#a-clip)">
+    <rect width="1000" height="280" fill="url(#a-bg)"/>
+    <rect width="1000" height="280" fill="url(#a-gl1)"/>
+    <rect width="1000" height="280" fill="url(#a-gl2)"/>
+    <rect width="1000" height="280" fill="url(#a-dots)" opacity=".5"/>
+    <rect width="5" height="280" fill="url(#a-bar)"/>
+
+    <text x="42" y="64" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" fill="#bb9af7" letter-spacing="3">02 / AGENT RUNTIME</text>
+    <text x="42" y="122" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="54" font-weight="700" fill="url(#a-name)">ARC-AI</text>
+    <text x="44" y="154" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" fill="#a9b1d6">Streaming AI · tool execution · retrieval-based memory</text>
+
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13">
+      <rect x="42" y="184" width="104" height="30" rx="15" fill="#1f2335" stroke="#bb9af7"/>
+      <text x="58" y="204" fill="#bb9af7">Streaming</text>
+      <rect x="158" y="184" width="96" height="30" rx="15" fill="#1f2335" stroke="#7aa2f7"/>
+      <text x="174" y="204" fill="#7aa2f7">22 Tools</text>
+      <rect x="266" y="184" width="90" height="30" rx="15" fill="#1f2335" stroke="#7dcfff"/>
+      <text x="282" y="204" fill="#7dcfff">Voice</text>
+      <rect x="368" y="184" width="112" height="30" rx="15" fill="#1f2335" stroke="#7aa2f7"/>
+      <text x="384" y="204" fill="#7aa2f7">RAG Memory</text>
+    </g>
+
+    <rect x="540" y="44" width="420" height="104" rx="12" fill="#1f2335" stroke="#2f334d"/>
+    <circle cx="562" cy="62" r="5" fill="#f7768e"/>
+    <circle cx="580" cy="62" r="5" fill="#ff9e64"/>
+    <circle cx="598" cy="62" r="5" fill="#9ece6a"/>
+    <text x="916" y="66" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#565f89">streaming · socket.io</text>
+    <rect class="aStream1" x="566" y="84" width="300" height="8" rx="4" fill="#7aa2f7"/>
+    <rect class="aStream2" x="566" y="102" width="238" height="8" rx="4" fill="#bb9af7"/>
+    <rect class="aStream3" x="566" y="120" width="168" height="8" rx="4" fill="#7dcfff"/>
+
+    <g fill="none" stroke-width="1.4">
+      <line class="amesh" x1="579" y1="196" x2="617" y2="196" stroke="#7aa2f7"/>
+      <line class="amesh" x1="643" y1="196" x2="681" y2="196" stroke="#bb9af7"/>
+      <line class="amesh" x1="707" y1="196" x2="745" y2="196" stroke="#7dcfff"/>
+      <line class="amesh" x1="771" y1="196" x2="809" y2="196" stroke="#7aa2f7"/>
+      <line class="amesh" x1="835" y1="196" x2="873" y2="196" stroke="#bb9af7"/>
+    </g>
+    <circle cx="566" cy="196" r="13" fill="#1f2335" stroke="#7aa2f7" stroke-width="1.6"/>
+    <circle cx="630" cy="196" r="13" fill="#1f2335" stroke="#bb9af7" stroke-width="1.6"/>
+    <circle cx="694" cy="196" r="14" fill="#7aa2f7" class="apulse"/>
+    <circle cx="758" cy="196" r="13" fill="#1f2335" stroke="#7dcfff" stroke-width="1.6"/>
+    <circle cx="822" cy="196" r="13" fill="#1f2335" stroke="#7aa2f7" stroke-width="1.6"/>
+    <circle cx="886" cy="196" r="13" fill="#1f2335" stroke="#bb9af7" stroke-width="1.6"/>
+
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#a9b1d6" text-anchor="middle">
+      <text x="566" y="230">prompt</text>
+      <text x="630" y="230">router</text>
+      <text x="694" y="230" fill="#1a1b26">tools</text>
+      <text x="758" y="230">memory</text>
+      <text x="822" y="230">stream</text>
+      <text x="886" y="230">voice</text>
+    </g>
+  </g>
+</svg>

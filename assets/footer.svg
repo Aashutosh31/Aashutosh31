@@ -1,0 +1,47 @@
+<svg width="1000" height="120" viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aashutosh Bairagi — build, debug, understand, improve.">
+  <defs>
+    <linearGradient id="f-bg" x1="0" y1="0" x2="1000" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1b26"/>
+      <stop offset="1" stop-color="#16161e"/>
+    </linearGradient>
+    <linearGradient id="f-line" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dcfff"/>
+      <stop offset=".5" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <radialGradient id="f-gl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 -40) rotate(90) scale(360 200)">
+      <stop stop-color="#7aa2f7" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="f-clip"><rect width="1000" height="120" rx="16"/></clipPath>
+    <style>
+      .fcur{animation:fblink 1.15s steps(1) infinite}
+      @keyframes fblink{50%{opacity:0}}
+      .fdot{animation:fpulse 2.8s ease-in-out infinite}
+      @keyframes fpulse{0%,100%{opacity:.3}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#f-clip)">
+    <rect width="1000" height="120" fill="url(#f-bg)"/>
+    <rect width="1000" height="120" fill="url(#f-gl)"/>
+    <rect width="1000" height="3" fill="url(#f-line)"/>
+
+    <text x="40" y="70" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="15" fill="#9ece6a">$</text>
+    <text x="58" y="70" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="15" fill="#c0caf5">Build · Debug · Understand · Improve</text>
+    <rect x="404" y="58" width="9" height="14" fill="#7aa2f7" class="fcur"/>
+
+    <text x="960" y="70" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" fill="#565f89">github.com/Aashutosh31</text>
+
+    <g fill="#7aa2f7">
+      <rect class="fdot" x="40" y="94" width="40" height="4" rx="2"/>
+      <rect class="fdot" x="88" y="94" width="22" height="4" rx="2" fill="#7dcfff"/>
+      <rect class="fdot" x="118" y="94" width="12" height="4" rx="2" fill="#bb9af7"/>
+    </g>
+    <g fill="#bb9af7">
+      <rect class="fdot" x="882" y="94" width="12" height="4" rx="2"/>
+      <rect class="fdot" x="900" y="94" width="22" height="4" rx="2" fill="#7dcfff"/>
+      <rect class="fdot" x="930" y="94" width="30" height="4" rx="2" fill="#7aa2f7"/>
+    </g>
+  </g>
+</svg>
