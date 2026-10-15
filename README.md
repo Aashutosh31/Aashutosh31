@@ -100,14 +100,6 @@ Paste a Smart India Hackathon problem statement and it returns a structured exec
 
 **Links:** [Live app](https://sih-intelligent-problem-analyzer.vercel.app) · [Source code](https://github.com/Aashutosh31/SIH-Intelligent-Problem-Analyzer)
 
-### Stock Suggestion — Full-stack tracking app
-
-A stock suggestion and tracking app with an Express/MongoDB API and a React front end, pushing realtime updates over WebSockets.
-
-**Stack:** `React` `Vite` `Tailwind CSS` `Node.js` `Express` `MongoDB` `WebSockets`
-
-**Links:** [Source code](https://github.com/Aashutosh31/Stock-Suggestion-Application)
-
 > **Also exploring — Sahaay (SIH26093).** A voice-first, multilingual triage prototype for a public helpline: AI extracts evidence-backed signals, but a fixed-weight engine computes the Stress & Vulnerability Index and every routing decision stays human-in-the-loop. A hackathon prototype, kept private for now.
 
 ---
