@@ -1,0 +1,62 @@
+<svg width="1000" height="190" viewBox="0 0 1000 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AttendTrack — role-based college attendance system with face-recognition check-in.">
+  <defs>
+    <linearGradient id="t-bg" x1="0" y1="0" x2="1000" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1b26"/>
+      <stop offset="1" stop-color="#16161e"/>
+    </linearGradient>
+    <radialGradient id="t-gl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 20) rotate(160) scale(420 320)">
+      <stop stop-color="#bb9af7" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="t-name" x1="42" y1="76" x2="340" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <linearGradient id="t-bar" x1="0" y1="0" x2="0" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <pattern id="t-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2a2e42"/>
+    </pattern>
+    <clipPath id="t-clip"><rect width="1000" height="190" rx="16"/></clipPath>
+    <style>
+      .tscan{animation:tscan 2.6s ease-in-out infinite}
+      @keyframes tscan{0%,100%{transform:translateY(0)}50%{transform:translateY(74px)}}
+    </style>
+  </defs>
+  <g clip-path="url(#t-clip)">
+    <rect width="1000" height="190" fill="url(#t-bg)"/>
+    <rect width="1000" height="190" fill="url(#t-gl)"/>
+    <rect width="1000" height="190" fill="url(#t-dots)" opacity=".45"/>
+    <rect width="5" height="190" fill="url(#t-bar)"/>
+
+    <text x="42" y="52" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7aa2f7" letter-spacing="3">WEB · FULL-STACK</text>
+    <text x="42" y="104" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="46" font-weight="700" fill="url(#t-name)">AttendTrack</text>
+    <text x="44" y="132" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15" fill="#a9b1d6">Role-based attendance with face-recognition check-in</text>
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12">
+      <rect x="42" y="150" width="90" height="28" rx="14" fill="#1f2335" stroke="#7aa2f7"/>
+      <text x="56" y="169" fill="#7aa2f7">Express</text>
+      <rect x="144" y="150" width="102" height="28" rx="14" fill="#1f2335" stroke="#bb9af7"/>
+      <text x="158" y="169" fill="#bb9af7">MongoDB</text>
+      <rect x="258" y="150" width="102" height="28" rx="14" fill="#1f2335" stroke="#7dcfff"/>
+      <text x="272" y="169" fill="#7dcfff">Supabase</text>
+    </g>
+
+    <rect x="700" y="40" width="220" height="110" rx="14" fill="#1f2335" stroke="#2f334d"/>
+    <g stroke="#7aa2f7" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <polyline points="712,64 712,52 724,52"/>
+      <polyline points="908,64 908,52 896,52"/>
+      <polyline points="712,126 712,138 724,138"/>
+      <polyline points="908,126 908,138 896,138"/>
+    </g>
+    <circle cx="810" cy="90" r="16" fill="none" stroke="#7dcfff" stroke-width="2"/>
+    <circle cx="804" cy="87" r="1.7" fill="#7dcfff"/>
+    <circle cx="816" cy="87" r="1.7" fill="#7dcfff"/>
+    <path d="M804 96 q6 5 12 0" fill="none" stroke="#7dcfff" stroke-width="1.6" stroke-linecap="round"/>
+    <g class="tscan">
+      <line x1="712" y1="52" x2="908" y2="52" stroke="#9ece6a" stroke-width="1.6" opacity=".8"/>
+    </g>
+    <text x="810" y="170" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#565f89">face-api.js · TensorFlow.WASM</text>
+  </g>
+</svg>
