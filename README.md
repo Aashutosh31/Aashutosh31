@@ -9,6 +9,8 @@
 <a href="https://x.com/Aashutosh_dev31"><img src="https://img.shields.io/badge/X-1a1b26?style=flat-square&logo=x&logoColor=c0caf5" alt="X" /></a>
 <a href="https://github.com/Aashutosh31"><img src="https://img.shields.io/badge/GitHub-1a1b26?style=flat-square&logo=github&logoColor=bb9af7" alt="GitHub" /></a>
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Aashutosh31/badge.svg)](https://hub.xerj.org/contributors/Aashutosh31)
+
 </div>
 
 I'm a computer science student and independent developer. I build full-stack products and spend most of my time on the difficult parts — real-time synchronization, AI streaming and memory, and the engineering decisions that make a system stay reliable under load and failure.
