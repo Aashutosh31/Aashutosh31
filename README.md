@@ -7,6 +7,8 @@
 <a href="https://aashutoshbairagi.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1a1b26?style=flat-square&logo=vercel&logoColor=7dcfff" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/aashutosh-bairagi-559aa530b/"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=flat-square&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
 <a href="https://x.com/Aashutosh_dev31"><img src="https://img.shields.io/badge/X-1a1b26?style=flat-square&logo=x&logoColor=c0caf5" alt="X" /></a>
+<a href="https://dev.to/aashutosh_bairagi_31"><img src="https://img.shields.io/badge/dev.to-1a1b26?style=flat-square&logo=devdotto&logoColor=c0caf5" alt="dev.to" /></a>
+<a href="https://medium.com/@aashutosh.bairagi05"><img src="https://img.shields.io/badge/Medium-1a1b26?style=flat-square&logo=medium&logoColor=c0caf5" alt="Medium" /></a>
 <a href="https://github.com/Aashutosh31"><img src="https://img.shields.io/badge/GitHub-1a1b26?style=flat-square&logo=github&logoColor=bb9af7" alt="GitHub" /></a>
 
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Aashutosh31/badge.svg)](https://hub.xerj.org/contributors/Aashutosh31)
@@ -162,12 +164,22 @@ I'm deliberately working on three complementary areas:
 
 </div>
 
+## Writing
+
+I write about the systems I build — the decisions, the failures, and what actually held up.
+
+- **dev.to** — [dev.to/aashutosh_bairagi_31](https://dev.to/aashutosh_bairagi_31) — deep-dives on real-time systems, AI runtimes, and Linux tooling.
+- **Medium** — [medium.com/@aashutosh.bairagi05](https://medium.com/@aashutosh.bairagi05) — cross-posts and longer essays.
+- **Portfolio** — [aashutoshbairagi.vercel.app](https://aashutoshbairagi.vercel.app/) — what I'm building and how.
+
 ## Connect
 
 - **Portfolio:** [aashutoshbairagi.vercel.app](https://aashutoshbairagi.vercel.app/)
 - **GitHub:** [github.com/Aashutosh31](https://github.com/Aashutosh31)
 - **LinkedIn:** [Aashutosh Bairagi](https://www.linkedin.com/in/aashutosh-bairagi-559aa530b/)
 - **X:** [@Aashutosh_dev31](https://x.com/Aashutosh_dev31)
+- **dev.to:** [aashutosh_bairagi_31](https://dev.to/aashutosh_bairagi_31)
+- **Medium:** [@aashutosh.bairagi05](https://medium.com/@aashutosh.bairagi05)
 
 <div align="center">
   <img src="assets/footer.svg" alt="Build, debug, understand, improve." width="100%" />
