@@ -166,7 +166,7 @@ I'm deliberately working on three complementary areas:
 
 ## Writing
 
-I write about the systems I build — the decisions, the failures, and what actually held up.
+I write down what I learn while building them — the decisions, the failures, and what actually held up.
 
 - **dev.to** — [dev.to/aashutosh_bairagi_31](https://dev.to/aashutosh_bairagi_31) — deep-dives on real-time systems, AI runtimes, and Linux tooling.
 - **Medium** — [medium.com/@aashutosh.bairagi05](https://medium.com/@aashutosh.bairagi05) — cross-posts and longer essays.
