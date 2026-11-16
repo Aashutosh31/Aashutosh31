@@ -63,6 +63,20 @@ ARC-AI is an AI workspace built around progressive streaming, multi-step tool ex
 
 ## Other Projects
 
+### Bulk Delete for ChatGPT — Privacy-first browser extension
+
+<a href="https://addons.mozilla.org/addon/bulk-delete-for-chatgpt/"><img src="assets/bulk-delete-banner.svg" alt="Bulk Delete for ChatGPT — privacy-first browser extension, available on Firefox Add-ons" width="100%" /></a>
+
+Select and permanently delete the ChatGPT conversations you choose, one at a time. The extension runs locally in your browser, with no account, telemetry, or server.
+
+- **Explicit selection** — only conversations you tick are deleted.
+- **Privacy-first** — no telemetry or backend; authentication data stays in memory for each run.
+- **Open source** — inspect the code and report issues on GitHub.
+
+**Stack:** `JavaScript` `WebExtensions` `Firefox` `Chrome`
+
+**Links:** [Install for Firefox](https://addons.mozilla.org/addon/bulk-delete-for-chatgpt/) · [Source code](https://github.com/Aashutosh31/bulk-delete-for-chatgpt)
+
 ### Receipts — 90-day accountability
 
 <a href="https://aashutosh31.github.io/receipts/"><img src="assets/receipts-banner.svg" alt="Receipts — a 90-day accountability mobile app" width="100%" /></a>
