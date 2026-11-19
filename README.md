@@ -10,7 +10,7 @@
 <a href="https://dev.to/aashutosh_bairagi_31"><img src="https://img.shields.io/badge/dev.to-1a1b26?style=flat-square&logo=devdotto&logoColor=c0caf5" alt="dev.to" /></a>
 <a href="https://medium.com/@aashutosh.bairagi05"><img src="https://img.shields.io/badge/Medium-1a1b26?style=flat-square&logo=medium&logoColor=c0caf5" alt="Medium" /></a>
 <a href="https://github.com/Aashutosh31"><img src="https://img.shields.io/badge/GitHub-1a1b26?style=flat-square&logo=github&logoColor=bb9af7" alt="GitHub" /></a>
-
+<a href="https://www.agensi.io/skills/arc-ai-conversational" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Agensi-ARC--AI%20Skill-1a1b26?style=flat-square&logo=openai&logoColor=7dcfff" alt="ARC-AI on Agensi" /></a>
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Aashutosh31/badge.svg)](https://hub.xerj.org/contributors/Aashutosh31)
 
 </div>
